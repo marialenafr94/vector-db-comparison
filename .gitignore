@@ -1,0 +1,49 @@
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Large local datasets
+datasets/
+
+# Benchmark execution logs
+logs/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local database files
+pgdata/
+postgres-data/
+docker-data/
+*.sqlite
+*.sqlite3
+
+# Temporary benchmark artifacts and logs
+*.log
+results/real/index_build/backup/
+results/real/index_build/smoke_test.csv
+results/real/loading/smoke_test.csv
+results/real/*_OLD.csv
+results/real/*_pilot*.csv
+
+# Empty report placeholder
+draft_report.txt
+report/*.tex
+report/*.pdf
+
+# Local backups and source review archives
+*.bak
+*.zip

@@ -1,0 +1,36 @@
+
+services:
+  pgvector:
+    image: pgvector/pgvector:0.8.7-pg17
+    container_name: benchmark-pgvector
+    environment:
+      POSTGRES_USER: benchmark
+      POSTGRES_PASSWORD: benchmark_local
+      POSTGRES_DB: vectors
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - pgvector_data:/var/lib/postgresql/data
+    shm_size: 512mb
+
+  vectorchord:
+    image: tensorchord/vchord-suite:pg17-20250815
+    container_name: benchmark-vectorchord
+    environment:
+      POSTGRES_USER: benchmark
+      POSTGRES_PASSWORD: benchmark_local
+      POSTGRES_DB: vectors
+    command:
+      - postgres
+      - -c
+      - shared_preload_libraries=vchord.so
+    ports:
+      - "127.0.0.1:5434:5432"
+    volumes:
+      - vectorchord_data:/var/lib/postgresql/data
+    shm_size: 512mb
+
+volumes:
+  pgvector_data:
+  vectorchord_data:
+

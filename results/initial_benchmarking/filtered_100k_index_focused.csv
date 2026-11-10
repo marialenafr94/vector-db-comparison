@@ -1,0 +1,13 @@
+database,scan_mode,filter,candidate_count,ef_search,recall_at_10,mean_results_returned,queries_with_fewer_than_10,p50_ms,p95_ms,p99_ms,queries
+pgvector,off,50_percent,50000,300,0.271,10.0,0,15.296,22.993,24.808,100
+pgvector,strict_order,50_percent,50000,300,0.271,10.0,0,16.193,19.194,19.912,100
+pgvector,relaxed_order,50_percent,50000,300,0.271,10.0,0,15.923,18.962,19.413,100
+vectorchord,default,50_percent,50000,default,0.992,10.0,0,18.305,37.782,50.881,100
+pgvector,off,10_percent,10000,300,0.262,10.0,0,15.44,19.66,23.374,100
+pgvector,strict_order,10_percent,10000,300,0.262,10.0,0,16.69,19.29,21.305,100
+pgvector,relaxed_order,10_percent,10000,300,0.262,10.0,0,16.405,18.766,19.306,100
+vectorchord,default,10_percent,10000,default,0.989,10.0,0,26.157,33.762,37.357,100
+pgvector,off,1_percent,1000,300,0.2,3.06,99,16.442,19.74,21.652,100
+pgvector,strict_order,1_percent,1000,300,0.203,10.0,0,51.034,57.378,60.746,100
+pgvector,relaxed_order,1_percent,1000,300,0.451,10.0,0,51.395,57.544,67.673,100
+vectorchord,default,1_percent,1000,default,0.985,10.0,0,72.402,93.569,105.373,100

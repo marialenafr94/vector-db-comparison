@@ -1,0 +1,3 @@
+database,vectors,dimensions,generation_seconds,ingestion_seconds,index_seconds,table_mb,vector_index_mb
+pgvector,100000,384,1.671,71.324,237.813,175.0,195.32
+vectorchord,100000,384,1.671,86.822,12.059,175.0,174.1

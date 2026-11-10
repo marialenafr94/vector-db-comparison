@@ -1,0 +1,11 @@
+database,parameter,value,queries,recall_at_10,p50_ms,p95_ms,p99_ms,mean_ms,incomplete_queries
+vectorchord,vchordrq.epsilon,0.7,1000,0.9369,42.883,63.596,81.087,45.459,0
+pgvector,hnsw.ef_search,100,1000,0.9789,11.804,83.573,205.266,25.489,0
+pgvector,hnsw.ef_search,60,1000,0.9622,4.614,6.602,8.582,4.661,0
+vectorchord,vchordrq.epsilon,1.0,1000,0.9654,36.718,61.347,90.679,40.455,0
+vectorchord,vchordrq.epsilon,0.3,1000,0.8806,31.162,45.243,58.048,33.16,0
+vectorchord,vchordrq.epsilon,0.5,1000,0.9122,29.297,33.768,39.792,29.97,0
+vectorchord,vchordrq.epsilon,1.9,1000,0.9975,41.575,68.673,82.735,44.471,0
+pgvector,hnsw.ef_search,200,1000,0.9917,11.371,16.752,19.492,11.593,0
+pgvector,hnsw.ef_search,20,1000,0.894,2.292,3.895,4.766,2.434,0
+pgvector,hnsw.ef_search,40,1000,0.9434,3.289,4.695,5.569,3.324,0

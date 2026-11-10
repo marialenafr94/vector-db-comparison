@@ -1,0 +1,16 @@
+database,filter,selectivity_percent,scan_mode,search_value,queries,recall_at_10,mean_returned,incomplete_queries,p50_ms,p95_ms,p99_ms,mean_ms
+pgvector,category_50,50,off,60,100,0.956,10.0,0,37.649,96.35,172.484,44.527
+pgvector,category_50,50,strict_order,60,100,0.956,10.0,0,5.477,7.918,8.927,5.381
+pgvector,category_50,50,relaxed_order,60,100,0.956,10.0,0,4.892,6.226,7.927,4.53
+vectorchord,category_50,50,default,0.5,100,0.942,10.0,0,71.19,147.616,208.565,79.68
+vectorchord,category_50,50,default,0.7,100,0.971,10.0,0,62.91,112.065,126.666,68.35
+pgvector,category_10,10,off,60,100,0.605,6.14,92,7.798,11.664,13.358,7.454
+pgvector,category_10,10,strict_order,60,100,0.914,10.0,0,15.428,37.587,48.829,17.565
+pgvector,category_10,10,relaxed_order,60,100,0.961,10.0,0,8.727,13.678,15.549,8.683
+vectorchord,category_10,10,default,0.5,100,0.946,10.0,0,80.8,129.684,147.306,88.959
+vectorchord,category_10,10,default,0.7,100,0.977,10.0,0,77.319,134.017,191.504,83.302
+pgvector,category_1,1,off,60,100,0.053,0.53,100,4.682,7.562,10.172,4.601
+pgvector,category_1,1,strict_order,60,100,0.961,10.0,0,59.784,116.68,146.26,64.839
+pgvector,category_1,1,relaxed_order,60,100,0.99,10.0,0,43.784,78.659,88.744,45.649
+vectorchord,category_1,1,default,0.5,100,0.932,10.0,0,136.458,348.131,597.889,165.04
+vectorchord,category_1,1,default,0.7,100,0.964,10.0,0,128.038,232.699,316.669,136.317

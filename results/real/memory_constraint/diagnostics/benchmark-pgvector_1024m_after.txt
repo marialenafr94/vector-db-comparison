@@ -1,0 +1,73 @@
+=== memory.events ===
+low 0
+high 0
+max 939
+oom 0
+oom_kill 0
+oom_group_kill 0
+=== memory.stat ===
+anon 8880128
+file 1050578944
+kernel 8302592
+kernel_stack 131072
+pagetables 2088960
+sec_pagetables 0
+percpu 5200
+sock 0
+vmalloc 32768
+shmem 147116032
+file_mapped 164380672
+file_dirty 0
+file_writeback 0
+swapcached 0
+anon_thp 0
+file_thp 0
+shmem_thp 0
+inactive_anon 16019456
+active_anon 139784192
+inactive_file 200650752
+active_file 702812160
+unevictable 0
+slab_reclaimable 5223120
+slab_unreclaimable 794192
+slab 6017312
+workingset_refault_anon 0
+workingset_refault_file 3020
+workingset_activate_anon 0
+workingset_activate_file 3020
+workingset_restore_anon 0
+workingset_restore_file 0
+workingset_nodereclaim 0
+pgdemote_kswapd 0
+pgdemote_direct 0
+pgdemote_khugepaged 0
+pgdemote_proactive 0
+pgscan 14427
+pgsteal 13179
+pswpin 0
+pswpout 0
+pgscan_kswapd 0
+pgscan_direct 14427
+pgscan_khugepaged 0
+pgscan_proactive 0
+pgsteal_kswapd 0
+pgsteal_direct 13179
+pgsteal_khugepaged 0
+pgsteal_proactive 0
+pgfault 6171778
+pgmajfault 626
+pgrefill 51183
+pgactivate 1525773
+pgdeactivate 49240
+pglazyfree 0
+pglazyfreed 0
+swpin_zero 0
+swpout_zero 0
+thp_fault_alloc 0
+thp_collapse_alloc 0
+thp_swpout 0
+thp_swpout_fallback 0
+=== memory.current ===
+1068904448
+=== memory.swap.current ===
+0

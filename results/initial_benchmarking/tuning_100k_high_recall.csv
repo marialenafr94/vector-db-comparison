@@ -1,0 +1,6 @@
+database,setting,value,recall_at_10,p50_ms,p95_ms,p99_ms,queries,dimensions,vectors
+pgvector,hnsw.ef_search,850,0.564,38.842,44.603,48.108,100,384,100000
+pgvector,hnsw.ef_search,900,0.579,40.024,50.778,60.305,100,384,100000
+pgvector,hnsw.ef_search,950,0.597,42.223,45.976,47.244,100,384,100000
+pgvector,hnsw.ef_search,1000,0.607,46.925,58.397,60.309,100,384,100000
+vectorchord,default,default,0.983,12.097,13.93,14.903,100,384,100000

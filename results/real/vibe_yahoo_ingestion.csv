@@ -1,0 +1,3 @@
+database,vectors,dimensions,ingestion_seconds,table_mb
+pgvector,677305,384,190.758,1073.35
+vectorchord,677305,384,194.905,1073.35
